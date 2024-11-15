@@ -751,10 +751,6 @@ Covered by MIT License.
   margin-bottom: 1rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -797,6 +793,14 @@ Covered by MIT License.
 
 .w-11\/12 {
   width: 91.666667%;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-row {
