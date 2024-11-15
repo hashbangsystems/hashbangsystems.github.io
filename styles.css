@@ -779,12 +779,12 @@ Covered by MIT License.
   display: inline-flex;
 }
 
-.h-\[calc\(100vh-148px\)\] {
-  height: calc(100vh - 148px);
-}
-
 .max-h-14 {
   max-height: 3.5rem;
+}
+
+.min-h-\[calc\(100vh-148px\)\] {
+  min-height: calc(100vh - 148px);
 }
 
 .min-h-screen {
@@ -813,6 +813,10 @@ Covered by MIT License.
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -899,8 +903,8 @@ Covered by MIT License.
   padding-left: 1rem;
 }
 
-.text-center {
-  text-align: center;
+.text-left {
+  text-align: left;
 }
 
 .text-3xl {
@@ -970,17 +974,9 @@ Covered by MIT License.
     flex-direction: row;
   }
 
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
-  }
-
-  .md\:text-left {
-    text-align: left;
   }
 }
 
